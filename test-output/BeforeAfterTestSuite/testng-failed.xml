@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BeforeAfterTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BeforeAfterTestDemo2(failed)">
+    <classes>
+      <class name="day32.BeforeTestDemo2">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="TearDown"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- day32.BeforeTestDemo2 -->
+    </classes>
+  </test> <!-- BeforeAfterTestDemo2(failed) -->
+</suite> <!-- Failed suite [BeforeAfterTestSuite] -->
